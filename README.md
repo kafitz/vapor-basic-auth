@@ -1,20 +1,15 @@
-<p align="center">
-    <img src="https://cloud.githubusercontent.com/assets/1977704/25426816/a9d40530-2a70-11e7-9758-8a0da6341035.png" width="320" alt="Web Template">
-    <br>
-    <br>
-    <a href="https://docs.vapor.codes/2.0/getting-started/toolbox/#templates">
-        <img src="http://img.shields.io/badge/read_the-docs-92A8D1.svg" alt="Documentation">
-    </a>
-    <a href="http://vapor.team">
-        <img src="http://vapor.team/badge.svg" alt="Slack Team">
-    </a>
-    <a href="LICENSE">
-        <img src="http://img.shields.io/badge/license-MIT-brightgreen.svg" alt="MIT License">
-    </a>
-    <a href="https://circleci.com/gh/vapor/web-template">
-        <img src="https://circleci.com/gh/vapor/web-template.svg?style=shield" alt="Continuous Integration">
-    </a>
-    <a href="https://swift.org">
-        <img src="http://img.shields.io/badge/swift-3.1-brightgreen.svg" alt="Swift 3.1">
-    </a>
-</p>
+# Vapor Basic Auth tutorial
+
+End result of following this [basic auth tutorial](https://theswiftwebdeveloper.com/vapor-2-authentication-2e11129e37e0). Provides basic register/login and authenticated routes, passwords left as plain-text. Versioned as a basic example.
+
+## Running Code
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+Clone project and run `vapor build` and `vapor run` to get going.
+
+- Available Endpoints:
+	- /login
+	- /register
+	- /hello
+	- /info
